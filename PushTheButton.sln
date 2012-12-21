@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushTheButton.Core", "PushTheButton.Core\PushTheButton.Core.csproj", "{08FF7491-9514-4BFA-8A1A-05FDFA453130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushTheButton.Console", "PushTheButton.Console\PushTheButton.Console.csproj", "{3FB01590-0ABA-4494-B1F8-9C0908C17C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Functional.PushTheButton.Core", "Tests.Functional.PushTheButton.Core\Tests.Functional.PushTheButton.Core.csproj", "{FF5ED6CD-8710-4FC6-9176-AB644F2B48F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FF7491-9514-4BFA-8A1A-05FDFA453130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FF7491-9514-4BFA-8A1A-05FDFA453130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FF7491-9514-4BFA-8A1A-05FDFA453130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FF7491-9514-4BFA-8A1A-05FDFA453130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB01590-0ABA-4494-B1F8-9C0908C17C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB01590-0ABA-4494-B1F8-9C0908C17C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB01590-0ABA-4494-B1F8-9C0908C17C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB01590-0ABA-4494-B1F8-9C0908C17C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5ED6CD-8710-4FC6-9176-AB644F2B48F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5ED6CD-8710-4FC6-9176-AB644F2B48F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5ED6CD-8710-4FC6-9176-AB644F2B48F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5ED6CD-8710-4FC6-9176-AB644F2B48F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
