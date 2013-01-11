@@ -148,7 +148,7 @@ namespace PushTheButton.Console
             {
                 _usb.SpecifiedDevice.SendData(Data);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
