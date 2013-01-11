@@ -6,16 +6,19 @@ namespace PushTheButton.Console
 {
     public static class MediaPlayer
     {
-           public static void Play(string filepath)
+        public static void Play(string filepath)
         {
             if (!File.Exists(filepath))
             {
                 return;
             }
-            var soundPlayer = new SoundPlayer(filepath);
+
+            var result = File.ReadAllBytes(filepath);
+            var ms = new MemoryStream(result);
+            var soundPlayer = new SoundPlayer(ms);
             try
             {
-                soundPlayer.PlaySync();
+               soundPlayer.PlaySync();
             }
             catch //swallow
             {    
